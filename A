@@ -1,0 +1,7 @@
+document.getElementById('buttonYes').addEventListener('click', function() {
+    document.getElementById('response').innerHTML = '¡Yay! ¡Estoy tan feliz! 💕';
+});
+
+document.getElementById('buttonNo').addEventListener('click', function() {
+    document.getElementById('response').innerHTML = '¡Oh no! Tal vez otro año. 😢';
+});
